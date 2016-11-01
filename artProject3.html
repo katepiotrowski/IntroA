@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ArtProject</title>
+  </head>
+  <body>
+    <canvas id="myCanvas" width="400" height="400" ></canvas>
+    
+    <script>
+    var c = document.getElementById("myCanvas"); 
+    var ctx = c.getContext("2d");
+
+    
+    var grd = ctx.createLinearGradient(0,0,300,0);
+			grd.addColorStop(0,"#008ae6");
+    	grd.addColorStop(1,"white");
+      
+      ctx.fillStyle = grd;
+			ctx.fillRect(10,5,200,300);
+      
+    var grd = ctx.createLinearGradient(0,0,390,0);
+			grd.addColorStop(0,"white");
+    	grd.addColorStop(1,"#008ae6");
+      
+      ctx.fillStyle = grd;
+			ctx.fillRect(10,5,400,300);
+   
+      ctx.beginPath();
+      ctx.arc(195, 150, 140, 0, 2*Math.PI);
+      ctx.stroke();
+      ctx.fillStyle="#001f33";
+      ctx.fill();
+      
+      ctx.beginPath();
+      ctx.arc(195, 150, 130, 0, 2*Math.PI);
+      ctx.stroke();
+      ctx.fillStyle="#003d66";
+      ctx.fill();
+      
+       ctx.beginPath();
+      ctx.arc(195, 150, 120, 0, 2*Math.PI);
+      ctx.stroke();
+      ctx.fillStyle="#005c99";
+      ctx.fill();
+      
+      ctx.beginPath();
+      ctx.arc(195, 150, 110, 0, 2*Math.PI);
+      ctx.stroke();
+      ctx.fillStyle="#007acc";
+      ctx.fill();
+      
+      ctx.beginPath();
+      ctx.arc(195, 150, 100, 0, 2*Math.PI);
+      ctx.stroke();
+      ctx.fillStyle="#0099ff";
+      ctx.fill();
+      
+      ctx.beginPath();
+      ctx.arc(195, 150, 90, 0, 2*Math.PI);
+      ctx.stroke();
+      ctx.fillStyle="#33adff";
+      ctx.fill();
+      
+       ctx.beginPath();
+      ctx.arc(195, 150, 80, 0, 2*Math.PI);
+      ctx.stroke();
+      ctx.fillStyle="#001f33";
+      ctx.fill();
+      
+      ctx.beginPath();
+      ctx.arc(195, 150, 70, 0, 2*Math.PI);
+      ctx.stroke();
+      ctx.fillStyle="#003d66";
+      ctx.fill();
+      
+      ctx.beginPath();
+      ctx.arc(195, 150, 60, 0, 2*Math.PI);
+      ctx.stroke();
+      ctx.fillStyle="#005c99";
+      ctx.fill();
+      
+      ctx.beginPath();
+      ctx.arc(195, 150, 50, 0, 2*Math.PI);
+      ctx.stroke();
+      ctx.fillStyle="#007acc";
+      ctx.fill();
+      
+      ctx.beginPath();
+      ctx.arc(195, 150, 40, 0, 2*Math.PI);
+      ctx.stroke();
+      ctx.fillStyle="#0099ff";
+      ctx.fill();
+      
+      ctx.beginPath();
+      ctx.arc(195, 150, 30, 0, 2*Math.PI);
+      ctx.stroke();
+      ctx.fillStyle="#33adff";
+      ctx.fill();
+    
+     	ctx.beginPath();
+      ctx.arc(195, 150, 20, 0, 2*Math.PI);
+      ctx.stroke();
+      ctx.fillStyle="#80ccff";
+      ctx.fill();
+      
+      ctx.beginPath();
+      ctx.arc(195, 150, 10, 0, 2*Math.PI);
+      ctx.stroke();
+      ctx.fillStyle="#99d6ff";
+      ctx.fill();
+     
+     </script>
+   </body>
+</html>
